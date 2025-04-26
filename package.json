@@ -1,17 +1,14 @@
 {
   "name": "dice-bot",
   "version": "1.0.0",
+  "description": "A proprietary Discord dice rolling bot for the Storyteller's Coin ESO RP guild and subsidiaries",
   "main": "index.js",
-"scripts": {
-  "start": "node index.js"
-}
-
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "discord.js": "^14.18.0",
-    "dotenv": "^16.5.0"
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7"
   }
 }
